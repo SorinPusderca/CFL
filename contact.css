@@ -1,0 +1,177 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} */
+
+
+
+nav{
+    width: 240px;
+    background-color:darkgrey;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transition:all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+
+nav img{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+nav ul{
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 4px 0px;
+}
+
+nav ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color:darkolivegreen;
+    text-transform: upp;
+}
+
+#toggleMenu{
+    width: 30px;
+    height: 30px;
+    background-color:transparent;
+    background-image: url(Images/1200px-Crystal_Clear_action_button_cancel.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050;
+    cursor: pointer;
+    border-radius: 2px;
+    transition:all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+
+ body{
+    
+    background-size:122%;
+    background-image: url(./Images/thumb-1920-709274.jpg);   
+}
+ 
+/* @media only screen and (max-width: 500px) {
+    body {
+        background-image:url(./Images/steel-pattern-black-metal-diamond-plate-wallpaper-preview.jpg);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    p{
+        color:white;
+    }
+    a:link{
+        
+        background-color: blueviolet;
+  }
+  
+} */
+
+
+
+
+p{
+    color: white;
+    font-family: oldenburg;
+    text-shadow: 0px 0px 15px red;
+    font-size: 23px;
+}
+
+@font-face {
+    font-family: oldenburg;
+    src: url(./fonts/Oldenburg-Regular.ttf);
+}
+
+
+h1{
+    font-family: nicky;
+    color:white;
+    text-shadow: 0px 0px 16px red;
+}
+
+h1::first-letter{
+    font-family: nicky;
+    src: url(./fonts/nicky-nicky-700.ttf);
+    font-size: 50px;
+}
+
+@font-face{
+    font-family: nicky;
+    src: url(./fonts/nicky-nicky-700.ttf);
+}
+
+.registration{
+    position: relative;
+    top: 42%;
+    left: 42%;
+    width: 400px;
+    margin-top: 180px;
+}
+
+.registration h1{
+   margin-left: -100px;
+   /* margin-top: -100px; */
+    
+}
+
+.registration p{
+    margin: 15px;
+}
+
+
+.registration input{
+    /* padding: 50px, 20px; */
+    width: 200px;
+    height: 27px;
+    border-radius: 10px; 
+    background-color:black;
+    color: white ;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.button{
+   margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px; 
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background-color:black;
+    color: whitesmoke;
+    /* border: 1.5px solid red; */
+    font-family: oldenburg;
+    text-shadow: 0px 0px 16px red;
+    box-shadow: 0px 0px 16px #D356AA ;
+    animation-name: ghost;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.button:active{
+    color: hotpink;
+}
+
+/* @keyframes ghost {
+         0%{
+            background-color:#D356AA;
+            animation-duration: 5s;
+         }
+         100%{
+            background-color: #A96AB3;
+         }
+} */

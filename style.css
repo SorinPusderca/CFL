@@ -1,0 +1,239 @@
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: nicky;
+    color: gold;  
+    text-shadow: 0px 0px 5px red; 
+    font-size: 70px;
+    animation-name: chopp;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite; 
+}
+
+h1::first-letter{
+    font-family: nicky;
+    src: url(./fonts/nicky-nicky-700.ttf);
+    font-size: 100px;
+}
+
+@keyframes chopp {
+    0%{
+        font-family: nicky;
+        color: gold; 
+        cursor: pointer; 
+        text-shadow: 0px 0px 10px red; 
+    }
+    100%{
+        font-family: nicky;
+        color: red;
+        cursor: pointer;
+        text-shadow: 0px 0px 10px gold; 
+    }
+}
+
+@font-face{
+    font-family: nicky;
+    src: url(./fonts/nicky-nicky-700.ttf);
+}
+
+
+p{
+  font-size: 17px;
+  font-family: oldenburg;
+  padding-left: 3mm;
+  color:whitesmoke;
+  text-shadow: 0px 0px 15px black; 
+}
+
+@font-face {
+    font-family: oldenburg;
+    src: url(./fonts/Oldenburg-Regular.ttf);
+}
+
+body{
+    background-color: black;
+    background-image: url(./Images/steel-pattern-black-metal-diamond-plate-wallpaper-preview.jpg)
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image:url(./Images/steel-pattern-black-metal-diamond-plate-wallpaper-preview.jpg);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    p{
+        color:white;
+    }
+    a:link{
+        
+        background-color: blueviolet;
+  }
+  
+}
+
+
+
+.myDiv{
+    font-size: large;
+}
+
+.west{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} 
+
+nav{
+    width: 240px;
+    background-color:darkgrey;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transition:all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+
+nav img{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 30px;
+  
+}
+
+nav ul{
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 4px 0px;
+}
+
+nav ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color:darkolivegreen;
+    text-transform: upp;
+}
+
+#toggleMenu{
+    width: 30px;
+    height: 30px;
+    background-color:transparent;
+    background-image: url(./png/cancel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050;
+    cursor: pointer;
+    border-radius: 2px;
+    transition:all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+
+
+@font-face {
+    font-family: oldenburg;
+    src: url(./fonts/Oldenburg-Regular.ttf);
+}
+
+h2{
+    padding-top: 15px;
+    font-family: oldenburg;
+    color:white;
+    text-shadow: 0px 0px 5px red; 
+    font-size: 30px;
+}
+
+.s60{
+    float: right;
+    color: white;
+    font-family: oldenburg;
+    font-size: large;
+}
+
+.babe{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.cell{
+   
+    margin-top: 15px;
+    width:33%;
+    height: 400px;
+    margin-inline: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cell img{
+   
+    width: 100%;
+    height: 350px;
+    object-fit:cover ; 
+}
+
+
+.toy{
+    color: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-overflow: inherit;
+    text-shadow: 5px;
+    box-shadow: 0px 0px 0px 1px;
+    text-shadow: 0px 0px 0px 15px;
+    cursor: pointer;
+    /* background-image: url(./png/monster.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid pink;
+}
+
+
+.toy:hover{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    /* background-image: url(./png/troll.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    color:red;  
+}
+
+
+
+audio{
+    float: right;
+}
+
+
+
+.billy{
+    float: right;
+    width: 45%;
+    
+}
+
+h2{
+    margin-left: 50px;
+}
